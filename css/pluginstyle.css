@@ -1,0 +1,22 @@
+/* new-recent-posts-widget.css */
+.recent-posts-widget {
+    font-size: 12px; /* Set smaller font size */
+}
+
+.recent-post-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 15px;
+}
+
+.recent-post-item img {
+    width: 80px; /* Set width for images */
+    height: 80px; /* Ensure images are square */
+    object-fit: cover; /* Ensure images are cropped properly */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.recent-post-item a {
+    text-decoration: none;
+    color: inherit; /* Ensure text color inherits */
+}
